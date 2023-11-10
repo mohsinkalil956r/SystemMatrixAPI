@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ZATCA.DAL": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:60830;http://localhost:60832"
+    }
+  }
+}

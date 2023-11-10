@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Zatca\Files\Data\addQRElement.xsl" />
+    <None Remove="Zatca\Files\Data\addSignatureElement.xsl" />
+    <None Remove="Zatca\Files\Data\addUBLElement.xsl" />
+    <None Remove="Zatca\Files\Data\invoice.xsl" />
+    <None Remove="Zatca\Files\Data\qr.xml" />
+    <None Remove="Zatca\Files\Data\removeElements.xsl" />
+    <None Remove="Zatca\Files\Data\signature.xml" />
+    <None Remove="Zatca\Files\Data\ubl.xml" />
+    <None Remove="Zatca\Xml\Invoice.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Zatca\Files\Data\addQRElement.xsl" />
+    <EmbeddedResource Include="Zatca\Files\Data\addSignatureElement.xsl" />
+    <EmbeddedResource Include="Zatca\Files\Data\addUBLElement.xsl" />
+    <EmbeddedResource Include="Zatca\Files\Data\invoice.xsl" />
+    <EmbeddedResource Include="Zatca\Files\Data\qr.xml" />
+    <EmbeddedResource Include="Zatca\Files\Data\removeElements.xsl" />
+    <EmbeddedResource Include="Zatca\Files\Data\signature.xml" />
+    <EmbeddedResource Include="Zatca\Files\Data\ubl.xml" />
+    <EmbeddedResource Include="Zatca\Xml\Invoice.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BouncyCastle.Cryptography" Version="2.2.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="RestSharp" Version="110.2.0" />
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ERP.DAL\ZATCA.DAL.csproj" />
+  </ItemGroup>
+
+</Project>

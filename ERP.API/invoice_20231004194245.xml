@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InvoiceDataVM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <InvoiceNumber>076393</InvoiceNumber>
+  <Id />
+  <InvoiceType>2</InvoiceType>
+  <InvoiceTypeCode>388</InvoiceTypeCode>
+  <TransactionTypeCode>0100000</TransactionTypeCode>
+  <Notes />
+  <Order>532612</Order>
+  <IssueDate>2023-09-01</IssueDate>
+  <IssueTime>17:00:00</IssueTime>
+  <PreviousInvoiceHash />
+  <Lines>
+    <LineItemVM>
+      <Id />
+      <Index>0</Index>
+      <ProductName>IPC TRADING SYSTEM</ProductName>
+      <Quantity>1</Quantity>
+      <NetPrice>284000</NetPrice>
+      <LineDiscount>0</LineDiscount>
+      <PriceDiscount>0</PriceDiscount>
+      <InvoiceDataId>0</InvoiceDataId>
+      <Tax>15</Tax>
+      <TaxCategory>S</TaxCategory>
+      <TaxCategoryReasonCode />
+      <TaxCategoryReason />
+    </LineItemVM>
+  </Lines>
+  <Supplier>
+    <SellerTRN>300056986300003</SellerTRN>
+    <SellerName>SAUDI ERICSSON Communications</SellerName>
+    <StreetName>8010</StreetName>
+    <CityName>Adh Dhubbat</CityName>
+    <DistrictName>Adh Dhubbat Dist</DistrictName>
+    <BuildingNumber>8010</BuildingNumber>
+    <IdentityType>CRN</IdentityType>
+    <IdentityNumber>1010032572</IdentityNumber>
+    <CountryCode>SA</CountryCode>
+    <AdditionalStreetAddress />
+    <PostalCode>12623</PostalCode>
+  </Supplier>
+  <Discount>0</Discount>
+  <ReferenceId />
+  <PaymentMeansCode>42</PaymentMeansCode>
+  <Customer>
+    <IdentityType>CRN</IdentityType>
+    <IdentityNumber>1010032572</IdentityNumber>
+    <StreetName />
+    <BuildingNumber />
+    <CityName>RIYADH</CityName>
+    <RegionName>RIYADH</RegionName>
+    <DistrictName>RIYADH</DistrictName>
+    <AdditionalStreetAddress />
+    <VatRegNumber>300000313900003</VatRegNumber>
+    <ZipCode />
+    <CustomerName>ARAB NATIONAL BANK</CustomerName>
+    <CountryCode>SA</CountryCode>
+  </Customer>
+  <DeliveryDate />
+  <Tax>15</Tax>
+  <SubTotals>
+    <TaxDataVM>
+      <TotalWithoutTax>0</TotalWithoutTax>
+      <TaxAmount>0</TaxAmount>
+      <TaxCategory>S</TaxCategory>
+      <Tax>0</Tax>
+      <LineItemId>0</LineItemId>
+      <TaxCategoryReasonCode />
+      <TaxCategoryReason />
+    </TaxDataVM>
+  </SubTotals>
+  <DiscountTaxCategory />
+  <TaxAmount>0</TaxAmount>
+  <TotalWithTax>0</TotalWithTax>
+  <TotalWithoutTax>0</TotalWithoutTax>
+  <TotalWithoutTaxAndDiscount>0</TotalWithoutTaxAndDiscount>
+</InvoiceDataVM>
